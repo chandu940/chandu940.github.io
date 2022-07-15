@@ -48,15 +48,15 @@
       $mail->Port       = 25;
 
       $mail->Host       = "smtp.gmail.com";
-      $mail->Username   = "chandra.a@webileapps.com";
-      $mail->Password   = "gqwepxbwqjxedv";
+      $mail->Username   = "";
+      $mail->Password   = "";
       
       $mail->IsHTML(true);    
-      $mail->AddAddress("chandra.a@webileapps.com", "Kfintech - Careers");
-      $mail->SetFrom("chandra.a@webileapps.com", "KFintech Careers");
+      $mail->AddAddress("", "");
+      $mail->SetFrom("", "");
 
       $mail->AddReplyTo("{$_POST['email']}", "{$_POST['name']}");
-      $mail->Subject = "Resume from Careers site";
+      $mail->Subject = "";
       $mail->Body = "
       Email: {$_POST['email']} <br/>
       Name: {$_POST['name']}<br/>

@@ -12,3 +12,29 @@ header {
   display: flex;
   justify-content: space-between;
 }
+
+.custom-button {
+  background-color: #FF5900;
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+.custom-link {
+    background-color: #FF5900;
+    color: #fff;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+.custom-link:hover {
+  color: #fff;
+  transform: scale(1.5);
+  
+}

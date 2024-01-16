@@ -1,13 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
 * {
   box-sizing: border-box;
 }
+
 body {
   margin: 0;
   font-family: "Roboto", sans-serif;
   /* background-color: #000; */
   /* color: #fff; */
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -23,18 +26,35 @@ header {
 }
 
 .custom-link {
-    background-color: #FF5900;
-    color: #fff;
-    font-weight: bold;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    text-decoration: none;
-    cursor: pointer;
+  background-color: #FF5900;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
 
 }
+
 .custom-link:hover {
   color: #fff;
   transform: scale(1.5);
-  
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* Three columns with equal width */
+  grid-gap: 10px;
+  /* Gap between grid items */
+  margin-top: 10px;
+}
+
+.grid-item {
+  height: 350px;
+  background-color: #282b2d;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
 }
